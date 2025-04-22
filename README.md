@@ -10,7 +10,15 @@ Automatically switches Wikipedia pages to Simplified Chinese (Mainland China) ve
 
 - File: [wikipedia-zh-cn.user.js](wikipedia-zh-cn.user.js)
 - Function: When visiting any Wikipedia page, it automatically switches to Simplified Chinese (Mainland China) version if available
-- Applicable sites: *.wikipedia.org
+- Applicable sites: `*.wikipedia.org`
+
+### GitHub Copy Short Sha
+
+Adds a button to copy the short commit SHA on GitHub repository pages.
+
+- File: [github-copy-short-sha.user.js](github-copy-short-sha.user.js)
+- Function: Adds a "Copy Short Sha" button next to the latest commit information on the main page of a GitHub repository. Clicking it copies the 7-character short SHA to the clipboard.
+- Applicable sites: `*://github.com/*` (specifically repository pages)
 
 ## Installation
 
