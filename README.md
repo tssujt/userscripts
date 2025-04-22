@@ -8,7 +8,7 @@ A collection of useful Tampermonkey userscripts.
 
 Automatically switches Wikipedia pages to Simplified Chinese (Mainland China) version.
 
-- File: [wikipedia-zh-cn.user.js](wikipedia-zh-cn.user.js)
+- File: [wikipedia-zh-cn.user.js](https://github.com/tssujt/userscripts/raw/refs/heads/main/wikipedia-zh-cn.user.js)
 - Function: When visiting any Wikipedia page, it automatically switches to Simplified Chinese (Mainland China) version if available
 - Applicable sites: `*.wikipedia.org`
 
@@ -16,7 +16,7 @@ Automatically switches Wikipedia pages to Simplified Chinese (Mainland China) ve
 
 Adds a button to copy the short commit SHA on GitHub repository pages.
 
-- File: [github-copy-short-sha.user.js](github-copy-short-sha.user.js)
+- File: [github-copy-short-sha.user.js](https://github.com/tssujt/userscripts/raw/refs/heads/main/github-copy-short-sha.user.js)
 - Function: Adds a "Copy Short Sha" button next to the latest commit information on the main page of a GitHub repository. Clicking it copies the 7-character short SHA to the clipboard.
 - Applicable sites: `*://github.com/*` (specifically repository pages)
 
