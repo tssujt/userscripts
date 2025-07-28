@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Yuque Remove Clipboard iframes
 // @namespace    https://github.com/tssujt
-// @version      1.0
+// @version      1.2
 // @description  Automatically remove iframe elements with allow="clipboard-write" attribute on yuque.com
 // @author       tssujt
 // @match        https://www.yuque.com/*
@@ -40,11 +40,11 @@
                         console.log('Removing dynamically added iframe with clipboard-write permission and dify title:', node);
                         node.remove();
                     }
-                    // Check for clipboard iframes within the added node
+                    // Check for clipboard iframes with dify title within the added node
                     if (node.querySelectorAll) {
-                        const clipboardIframes = node.querySelectorAll('iframe[allow*="clipboard-write"]');
+                        const clipboardIframes = node.querySelectorAll('iframe[allow*="clipboard-write"][title*="dify"]');
                         clipboardIframes.forEach(iframe => {
-                            console.log('Removing iframe with clipboard-write permission from added content:', iframe);
+                            console.log('Removing iframe with clipboard-write permission and dify title from added content:', iframe);
                             iframe.remove();
                         });
                     }
