@@ -20,6 +20,22 @@ Adds a button to copy the short commit SHA on GitHub repository pages.
 - Function: Adds a "Copy Short Sha" button next to the latest commit information on the main page of a GitHub repository. Clicking it copies the 7-character short SHA to the clipboard.
 - Applicable sites: `*://github.com/*` (specifically repository pages)
 
+### MangaForFree Remove Offer iframes
+
+Automatically removes advertising iframe elements on MangaForFree website.
+
+- File: [mangaforfree-remove-offer-iframe.user.js](https://github.com/tssujt/userscripts/raw/refs/heads/main/mangaforfree-remove-offer-iframe.user.js)
+- Function: Automatically removes parent div elements containing iframe elements with title="offer" on mangaforfree.net
+- Applicable sites: `https://mangaforfree.net/*`
+
+### Yuque Remove Clipboard iframes
+
+Automatically removes iframe elements with clipboard-write permission on Yuque website.
+
+- File: [yuque-remove-clipboard-iframe.user.js](https://github.com/tssujt/userscripts/raw/refs/heads/main/yuque-remove-clipboard-iframe.user.js)
+- Function: Automatically removes iframe elements with allow="clipboard-write" attribute on yuque.com to prevent unwanted clipboard access
+- Applicable sites: `https://www.yuque.com/*`
+
 ## Installation
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) browser extension
